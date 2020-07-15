@@ -1215,7 +1215,7 @@ public class ThemeableBrowser extends CordovaPlugin {
                 result = activityRes.getDrawable(id, cordova.getActivity().getTheme());
             }
         } else if (altPath != null) {
-            File file = new File("www", altPath);
+            File file = new File("public", altPath);
             InputStream is = null;
             try {
                 is = cordova.getActivity().getAssets().open(file.getPath());
