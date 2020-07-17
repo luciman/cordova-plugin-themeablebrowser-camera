@@ -22,7 +22,6 @@
 #import <Cordova/CDVScreenOrientationDelegate.h>
 #import <WebKit/WebKit.h>
 #import <UIKit/UIKit.h>
-#import "CDVWKWebViewUIDelegate.h"
 
 //#ifdef __CORDOVA_4_0_0
 //    #import <Cordova/CDVUIWebViewDelegate.h>
