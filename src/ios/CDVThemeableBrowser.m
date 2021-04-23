@@ -930,7 +930,7 @@
         result = [UIImage imageNamed:name];
     } else if (altPath) {
         NSString* path = [[[NSBundle mainBundle] bundlePath]
-                          stringByAppendingPathComponent:[NSString pathWithComponents:@[@"public", altPath]]];
+                          stringByAppendingPathComponent:[NSString pathWithComponents:@[@"www", altPath]]];
         if (!altDensity) {
             altDensity = 1.0;
         }
